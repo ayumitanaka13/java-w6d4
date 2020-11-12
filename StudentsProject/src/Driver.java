@@ -40,7 +40,7 @@ public class Driver {
 		System.out.println("Enter the id that you want to remove : ");
 		int id = input.nextInt();
 
-		Iterator <Student>iterator = students.iterator();
+		Iterator<Student> iterator = students.iterator();
 		while(iterator.hasNext()) {
 			Student s = iterator.next();
 			if (s.getId() == id) {
